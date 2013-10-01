@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<iframe src="http://blip.tv/play/AYOV0UMC.s" width="720" height="433" frameborder="0" allowfullscreen></iframe>
+<div>
+Set episode to <input type="text" id="EpisodeId" /> <button id="PlayById">Go</button>
+</div>
+<div>
+<button id="Play">Play</button />
+<button id="Pause">Pause</button />
+<input id="State" type="text" />
+<input id="Progress" type="text" />
+</div>
+<div>
+<textarea id="Log" style="height:200px;width:720px;">
+</textarea>
+</div>
+
+<script>
+(function() {
+	var i = document.getElementsByTagName('iframe')[0];
+
+	/* listening to broadcasted events */
+	function receiveMessage(evt) {
+		var log = document.getElementById('Log');
+			var message = JSON.parse(evt.data);
+
+		/* 
+		 * Any window that has a variable reference to this window can postMessage to it --
+		 * Be sure that we're only handling blip player events by checking the domain!
+		 */
+		if(evt.origin !== 'http://blip.tv') {
+			return;
+		}
+
+		log.innerHTML = (evt.data +'\n\r') + log.innerHTML;
+
+		switch(message.event) {
+			case 'episode.progress' : handleEpisodeProgress(message.data.currentTime);
+				break;
+			case 'episode.playing' : handleEpisodePlaying();
+				break;
+			case 'episode.paused' : handleEpisodePaused();
+				break;
+			case 'episode.ended' : handleEpisodeEnded();
+				break;
+			case 'player.adStart' : handleAdStart();
+				break;
+			default: break;
+		}
+	}
+	window.addEventListener('message', receiveMessage);
+
+
+	function handleEpisodeProgress(currentTime) {
+		var d = new Date(0, 0, 0, 0, 0, Math.ceil(currentTime));
+		document.getElementById('Progress').value = [d.getHours(), d.getMinutes(), d.getSeconds()].join(':');
+	}
+
+	function handleEpisodePlaying() {
+		document.getElementById('State').value = 'playing';
+	}
+
+	function handleEpisodePaused() {
+		document.getElementById('State').value = 'paused';
+	}
+
+	function handleEpisodeEnded() {
+		document.getElementById('State').value = 'complete';
+	}
+
+	function handleAdStart() {
+		document.getElementById('State').value = 'playing advert';
+	}
+
+	/* sending events to the player */
+
+	function sendMessage(evt, data) {
+		i.contentWindow.postMessage(JSON.stringify({
+				event : evt,
+				data : data
+			}), 
+			'*'
+		);
+	}
+	
+	var addEventMethod = 'addEventListener';
+	var eventPrefix = '';
+	if(!window.addEventListener) {
+		addEventMethod = 'attachEvent';
+		eventPrefix = 'on';
+	}	
+	function addClick(element, handler) {
+		element[addEventMethod](eventPrefix + 'click', handler);
+	}
+
+
+	addClick(document.getElementById('Play'), function() {
+		sendMessage('play');
+	});
+	addClick(document.getElementById('Pause'), function() {
+		sendMessage('pause');
+	});
+	addClick(document.getElementById('PlayById'), function() {
+		var id = document.getElementById('EpisodeId').value;
+		if(isNaN(parseInt(id, 10))) {
+			throw new TypeError('Episode ID must be a Number');
+		}
+
+		sendMessage('playEpisode', { episodeId : id });
+	});
+
+
+})();
+
+
+</script>
+</body>
+</html>
