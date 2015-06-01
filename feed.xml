@@ -2,7 +2,7 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:dfpvideo="http://api.google.com/dfpvideo" version="2.0">
     <channel>
-        <pubDate>2015-06-01T18:11:06+00:00</pubDate>
+        <pubDate>2015-06-01T18:28:06+00:00</pubDate>
         <atom:link rel="self" href="http://jdsipes.github.io/feed.xml" />
         <openSearch:itemsPerPage>5</openSearch:itemsPerPage>
         <openSearch:startIndex>1</openSearch:startIndex>
