@@ -2,7 +2,7 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:dfpvideo="http://api.google.com/dfpvideo" version="2.0">
     <channel>
-        <pubDate>2015-06-01T18:28:06+00:00</pubDate>
+        <pubDate>2015-06-01T19:48:06+00:00</pubDate>
         <atom:link rel="self" href="http://jdsipes.github.io/feed.xml" />
         <openSearch:itemsPerPage>5</openSearch:itemsPerPage>
         <openSearch:startIndex>1</openSearch:startIndex>
@@ -33,9 +33,7 @@
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="yogscast" />
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="YouTube" />
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="AMS" />
-            <dfpvideo:keyvalues key="content_owner" type="string" value="maker_content" />
-            <dfpvideo:owner name="maker_content" />
-            <dfpvideo:lastModifiedDate>2015-06-01T17:41:35+00:00</dfpvideo:lastModifiedDate>
+            <dfpvideo:lastModifiedDate>2015-06-01T19:44:35+00:00</dfpvideo:lastModifiedDate>
         </item>
 
 <item>
@@ -47,7 +45,7 @@
 <media:description>We've got an animated treat for you! Our disastrously hilarious YogLabs Valentine's Day special comes to you in cartoon form. Animated by Foxel: https://www.youtube.com/user/foxelanimated The Original Video:  More Yogscast Animations:  ► The Official Yogscast Store: http://store.yogscast.com/bluexephos ◄ ♥ Subscribe: http://yogsca.st/SUBSCRIBE ♥ 25% Yogscast discount on game servers! http://multiplay.go2cloud.org/SHk Website: http://www.yogscast.com Twitch Channel: http://www.twitch.tv/yogscast/ Yogscast Games Store: http://games.yogscast.com Facebook: https://www.facebook.com/yogscast Instagram: http://instagram.com/yogscast Reddit: http://www.reddit.com/r/yogscast Twitter: @simonhoneydew @yogscastlewis Yogscast FAQ: http://www.yogscast.com/about/faq/ Our iOS App: http://yogsca.st/t1i Production music courtesy of Epidemic Sound Music by Audio Micro: http://www.audiomicro.com/ Powered by Chillblast: http://www.chillblast.com/yogscast Mailbox: The Yogscast, PO Box 3125 Bristol BS2 2DG Business enquiries: contact@yogscast.com</media:description>
 <media:keywords>Minecraft Animation,Valentines Day,YogLabs,yogscast animation</media:keywords>
 <media:status state="active" />
-<media:thumbnail url="http://d2wfjdhvqgsqdc.cloudfront.net/Library-2580/ysFC0nHdjeUX_1280x720.jpg" />
+<media:thumbnail url="http://d2wfjdhvqgsqdc.cloudfront.net/Library-1001/ysFC0nHdjeUX_1280x720.jpg" />
                 <media:player url="http://content.jwplatform.com/previews/WftlK293" />
 </media:group>
 <dfpvideo:contentID>ysFC0nHdjeUX</dfpvideo:contentID>
@@ -59,9 +57,7 @@
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="yogscast" />
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="YouTube" />
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="AMS" />
-            <dfpvideo:keyvalues key="content_owner" type="string" value="maker_content" />
-            <dfpvideo:owner name="maker_content" />
-<dfpvideo:lastModifiedDate>2015-06-01T17:31:32+00:00</dfpvideo:lastModifiedDate>
+            <dfpvideo:lastModifiedDate>2015-06-01T19:44:35+00:00</dfpvideo:lastModifiedDate>
 </item>
 
 <item>
@@ -77,7 +73,7 @@ MP3 download iTunes: https://itunes.apple.com/us/artist/muffin-songs/id492247042
 kids,animation,train,english,lyrics,animation (professional field),skip,preschool,rhymes,kindergarden,sing along,muffin songs,twinkle,english language (human language),chidren song,elmo song
 </media:keywords>
 <media:status state="active" />
-<media:thumbnail url="http://d2wfjdhvqgsqdc.cloudfront.net/Library-2580/SXx7VPwRHsTI_1280x720.jpg" />
+<media:thumbnail url="http://d2wfjdhvqgsqdc.cloudfront.net/Library-1259/SXx7VPwRHsTI_1280x720.jpg" />
                 <media:player url="http://content.jwplatform.com/previews/iDmL1nks" />
 </media:group>
 <dfpvideo:contentID>SXx7VPwRHsTI</dfpvideo:contentID>
@@ -91,9 +87,7 @@ kids,animation,train,english,lyrics,animation (professional field),skip,preschoo
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="youalwayswin" />
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="YouTube" />
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="AMS" />
-            <dfpvideo:keyvalues key="content_owner" type="string" value="maker_cartoonium" />
-            <dfpvideo:owner name="maker_cartoonium" />
-<dfpvideo:lastModifiedDate>2015-06-01T17:22:24+00:00</dfpvideo:lastModifiedDate>
+            <dfpvideo:lastModifiedDate>2015-06-01T19:44:35+00:00</dfpvideo:lastModifiedDate>
 </item>
 
 <item>
@@ -109,7 +103,7 @@ kids,animation,train,english,lyrics,animation (professional field),skip,preschoo
 14 days,ana kasparian,Cenk Uygur,china,chinese,gamer,internet addiction,internet cafe,liberal,man,News,Online gaming,politics,progressive,the young turks,TYT,Xia
 </media:keywords>
 <media:status state="active" />
-<media:thumbnail url="http://d2wfjdhvqgsqdc.cloudfront.net/Library-2580/4YMV4jWmcS3y_1280x720.jpg" />
+<media:thumbnail url="http://d2wfjdhvqgsqdc.cloudfront.net/Library-2382/4YMV4jWmcS3y_1280x720.jpg" />
                 <media:player url="http://content.jwplatform.com/previews/iDoVh59g" />
 </media:group>
 <dfpvideo:contentID>4YMV4jWmcS3y</dfpvideo:contentID>
@@ -117,9 +111,7 @@ kids,animation,train,english,lyrics,animation (professional field),skip,preschoo
             <dfpvideo:keyvalues key="show_name" type="string" value="TheYoungTurks" />
             <dfpvideo:keyvalues key="library_code" type="string" value="vFh7OhPE55pe" />
             <dfpvideo:keyvalues key="jw_id" type="string" value="iDoVh59g" />
-            <dfpvideo:keyvalues key="content_owner" type="string" value="maker_content" />
-            <dfpvideo:owner name="maker_content" />
-<dfpvideo:lastModifiedDate>2015-06-01T17:16:32+00:00</dfpvideo:lastModifiedDate>
+            <dfpvideo:lastModifiedDate>2015-06-01T19:44:35+00:00</dfpvideo:lastModifiedDate>
 </item>
 
 <item>
@@ -135,7 +127,7 @@ VTech's Go Go Smart Animals line of interactive, talking animals expands with ne
 toy review,farm animals,vtech (business operation),ttpm,go go smart animals,go go smart animals cow,go! go! smart animals cow review,go go smart animals unboxing,go! go! smart animals cow unboxing,go go smart animals review
 </media:keywords>
 <media:status state="active" />
-<media:thumbnail url="http://d2wfjdhvqgsqdc.cloudfront.net/Library-2580/BIrKOMfKwGja_1280x720.jpg" />
+<media:thumbnail url="http://d2wfjdhvqgsqdc.cloudfront.net/Library-2584/BIrKOMfKwGja_1280x720.jpg" />
                 <media:player url="http://content.jwplatform.com/previews/AyZnWQcL" />
 </media:group>
 <dfpvideo:contentID>BIrKOMfKwGja</dfpvideo:contentID>
@@ -147,11 +139,9 @@ toy review,farm animals,vtech (business operation),ttpm,go go smart animals,go g
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="maker" />
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="YouTube" />
             <dfpvideo:keyvalues key="endpoint_name" type="string" value="AMS" />
-            <dfpvideo:keyvalues key="content_owner" type="string" value="maker_content" />
-            <dfpvideo:owner name="maker_content" />
 <dfpvideo:keyvalues key="content_owner" type="string" value="maker_content" />
 <dfpvideo:owner name="maker_content" />
-<dfpvideo:lastModifiedDate>2015-06-01T17:52:12+00:00</dfpvideo:lastModifiedDate>
+            <dfpvideo:lastModifiedDate>2015-06-01T19:44:35+00:00</dfpvideo:lastModifiedDate>
 </item>
     </channel>
 </rss>
